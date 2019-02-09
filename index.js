@@ -7,5 +7,5 @@ const server = express();
 
 server.use('/api', userRoutes);
 server.use('/api', categoriesRoutes);
-
+console.log(process.env.DATABASE_URL);
 server.listen(9000, () => console.log("### SERVER RUNNING ON PORT 9000 ###"));
