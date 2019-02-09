@@ -18,19 +18,7 @@ module.exports = {
             directory: "./db/migrations"
         },
         seeds: {
-            directory: "./db/seeds/production"
-        },
-        useNullAsDefault: true
-    },
-
-    test: {
-        client: "pg",
-        connection: "postgres://localhost/onetohasmany",
-        migrations: {
-            directory: "./db/migrations"
-        },
-        seeds: {
-            directory: "./db/seeds/test"
+            directory: "./db/seeds/dev"
         },
         useNullAsDefault: true
     }
